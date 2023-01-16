@@ -1,13 +1,9 @@
 let count=0;
+let a=7;
   
-for(let i=1; i<=num; i++){
-   if(num%i==0){
-     count ++
+for(let i=1; i<=7; i++){
+   if(7%i==0){
+     count++;
    } 
 }  
-if(count == 2){
-  console.log("Yes it is Prime");
-}
-else{
-  console.log("No, it is not prime")
-}  
+(count==2) ? console.log("is prime") : console.log("not prime"); 
