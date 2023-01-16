@@ -11,3 +11,4 @@ if(count == 2){
 else{
   console.log("No, it is not prime")
 }  
+}
